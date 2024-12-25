@@ -48,4 +48,7 @@ echo core | sudo tee /proc/sys/kernel/core_pattern
 
 afl-fuzz -i /home/user/projects/input/ -o /home/user/projects/output/ -m none -- ./ffmpeg -i @@ test/
 
+скриншоты сделаны почти сразу после запуска и через час работы:
 ![image](https://github.com/user-attachments/assets/b23f242d-c9ab-406b-a296-091af87a1114)
+![image](https://github.com/user-attachments/assets/9cb89fa6-39da-4d18-943b-68da98958f18)
+
